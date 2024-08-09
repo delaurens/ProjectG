@@ -1,4 +1,10 @@
-
+---
+title: "Un poco de datos"
+author: "Lolvin Delaurens"
+date: "2024-07-03"
+categories: [news, code, analysis]
+image: "grafica de barras colores.png"
+---
 
 ## Un poco de datos
 
@@ -6,7 +12,6 @@
 Acceso a datos de excel de concentraciones de DNA de plantas de *Vanilla planifolia* Jacks en tres agrosistemas distintos de la región del Totonacapan. En esta gráfica podemos encontrar los datos de un sitio de muestreo llamado ACAHUAL.
 :::
 
-![](grafica%20de%20barras%20colores.png){width="411"}
 
 ![](vainilla.jpg){width="314"}
 
