@@ -1,0 +1,16 @@
+{
+  "hash": "13dea094f6efad3bd15061f7726581f5",
+  "result": {
+    "markdown": "## Lectura de datos\n\nAcceso a datos de excel de concentraciones de DNA de plantas de *Vanilla planifolia* Jacks en tres agrosistemas distintos de la región del Totonacapan.\n\n![](vainilla.jpg)\n\n\n::: {.cell}\n\n```{.r .cell-code}\nsuppressPackageStartupMessages(library(tidyverse))\n```\n\n::: {.cell-output .cell-output-stderr}\n```\nWarning: package 'ggplot2' was built under R version 4.3.3\n```\n:::\n\n::: {.cell-output .cell-output-stderr}\n```\nWarning: package 'tidyr' was built under R version 4.3.3\n```\n:::\n\n::: {.cell-output .cell-output-stderr}\n```\nWarning: package 'readr' was built under R version 4.3.3\n```\n:::\n\n```{.r .cell-code}\nlibrary(ggplot2)\nlibrary(readxl)\n\nlibrary(readxl)\nLolvin_datos <- read_excel (\"Lolvin datos concentraciónes DNA de rizosfera primeras muestras Quantus.xlsx\")\n```\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\nggplot(Lolvin_datos, aes(x = `Sample ID`, y = Concentration)) +\n  geom_point(color = \"orange\")\n```\n\n::: {.cell-output-display}\n![](leer-datos_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "leer-datos_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

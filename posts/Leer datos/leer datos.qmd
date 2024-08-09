@@ -1,0 +1,20 @@
+## Lectura de datos
+
+Acceso a datos de excel de concentraciones de DNA de plantas de *Vanilla planifolia* Jacks en tres agrosistemas distintos de la región del Totonacapan.
+
+![](vainilla.jpg)
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+library(ggplot2)
+library(readxl)
+
+library(readxl)
+Lolvin_datos <- read_excel ("Lolvin datos concentraciónes DNA de rizosfera primeras muestras Quantus.xlsx")
+
+```
+
+```{r}
+ggplot(Lolvin_datos, aes(x = `Sample ID`, y = Concentration)) +
+  geom_point(color = "orange")
+```

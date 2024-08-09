@@ -13,7 +13,12 @@ about:
     - icon: github
       text: Github
       href: https://github.com
-
 ---
 
-About this blog
+## Acerca de este Blog
+
+En este blog, exploraremos un poco acerca del mundo de la vainilla en la región del totonacapan se comparten datos sobre concentraciones de DNA´s de distintos tipos de cultivo: Acahual, Cafetal y Malla sombra con tutor artificial.
+
+Además un articulo de divulgación sobre la historia de la vainilla en el Totonacapan y su principal problematica fitosanitaria actualmente.
+
+Empecemos.

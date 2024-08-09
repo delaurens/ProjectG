@@ -1,13 +1,85 @@
 ---
-title: "Post With Code"
-author: "Harlow Malloc"
+title: "Primer ejercicio Pizza"
+author: "Lolvin Delaurens"
 date: "2024-07-03"
 categories: [news, code, analysis]
-image: "image.jpg"
+image: "images/pizza.jpg"
 ---
 
-This is a post with executable code.
+## Este fue un ejercicio de preparación de Pizza
+
+Esta es una serie de ejercicios para hacer masa para pizzas de una manera divertida
+
+::: columns ::: {.column width="20%"}
+
+![](images/pizza.jpg)){width="600"} :::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="50%"}
+Para encontrar una mejor manera de hacer su pizza favorita, Marcelo se propuso reducir el tiempo que tarda en preparar la masa. Para hacerlo siguió el camino de la ciencia y **diseñó un experimento** para poner a prueba el efecto de la cantidad de azúcar y de leche en los tiempos de activación de la levadura. En concreto, probó cuatro recetas diferentes y midió cuántos segundos tardaba la misma cantidad de masa en llenar un recipiente hasta una marca que fijo como referencia. **Aleatorizó** el orden de las recetas y repitió cada tratamiento 4 veces.
+:::
+
+::: [Descargar los datos en formato de texto simple](masa-para-pizza.txt) o [Utiliza este vínculo para otenerlo de Google Drive](https://drive.google.com/file/d/1uVUOqwobv67E5xTsSSxjg9f9qypW-aIS/view?usp=sharing)
+
+::: {style="color:GoldenRod"}
+1.  ¿Diseño experimental?
+2.  ¿Arreglo de tratamientos?
+3.  ¿Modelo que corresponde a este experimento?
+4.  ¿Supuestos qe harás para apoyar tu análisis estadístico?
+5.  ¿Define tu criterio o nivel de significancia?
+6.  Realiza una exploración de los datos, numérica y gráfica, comenta
+7.  Construye los modelos necesarios y selecciona el mínimo adecuado
+8.  Valora la calidad del modelo, incluyendo el análisis de los residuos
+9.  Resuelve que tratamientos difieren de los demás
+10. Argumenta tus conclusiones
+:::
+
+```{=html}
+<iframe 
+        src="https://drive.google.com/embeddedfolderview?id=1R63QN1N3r4n-aR2lL7OKnwMEfnNnRmd7#list"
+        title="directorio de datos"
+        allowfullscreen= "true"
+        height="50%"
+        width="95%"
+        style="border:10px solid blue;">
+</iframe>
+```
+## Ejercicios de Masa Pizza
+
+El Estudio de Marcelo es un experimento *completamente aleatorizado*, no hubo restricciones a la aleatorización como para producir **bloques** o división en parcelas (**parcela dividida**). Los tratamientos los ideó Marcelo como tratamientos factoriales, resultado de la combinación de cantidades variables de azúcar y leche, pero finalmente optó por tratarlas como una serie de recetas (sin decirnos que cantidad de leche o azúcar empleo, típico de los cocineros, guardar secretos), así que no nos queda otra que tratar al arreglo de tratamientos como una clasificación simple en *recetas* (ANOVA de una sola vía dirían otros). El modelo que describe esto es algo así (@eq-mod-est-lin):
+
+$$
+y_{ij} = \mu + R_i + \varepsilon_{j(i)}
+$$ {#eq-mod-est-lin}
+
+En donde *i* tiene 4 niveles, uno por cada receta, *j* tiene 4 niveles, por el número de repeticiones de cada receta. Por lo tanto, los grados de libertad en el cuadro de análisis de la varianza deben ser 3 para las recetas y 12 para el error. Pongo aquí dos referencias que no tienen gran cosa que ver pero tienen valor ilustrativo [@pizzama2003], o cuando hablas de lo que dice @ceccarini2011.
+
+## Exploración de datos
+
+Una vez leídos los datos del archivo plano *texto separado por comas* (extensión csv), definí la columna *recetas* como *factor*, lo hice con la función `mutate` para interactuar con la tabla completa. Me asomé a los datos calculando los promedios por tratamiento (@tbl-lee-datos). Seguí la metáfora de *tubos* con ayuda de la biblioteca `tidyverse` o `dplyr`.
 
 ```{r}
-1 + 1
+#| label: tbl-lee-datos
+#| tbl-cap: Resumen estadístico del commportamiento de las masas de pizza.
+#| echo: true
+
+#pizzas <- list.files(".", pattern = "^masa-para", recursive = T, full.names = T)
+#masa_2 <- read_csv(pizzas, col_names = TRUE)
+
+
+url_drive <- "https://docs.google.com/uc?id=%s&export=download" 
+masa <- read.csv(sprintf(url_drive, dat_datos_id)) 
+
+masa %>%
+  mutate(receta = factor(receta)) %>%            
+  arrange(receta) -> masa # también puedo guardar resultados así
+
+masa %>% 
+  group_by(receta) %>% 
+  summarise(media = mean(tiempo, na.rm = TRUE), 
+            mediana = median(tiempo, na.rm = TRUE),
+            var = var(tiempo)) 
+
 ```

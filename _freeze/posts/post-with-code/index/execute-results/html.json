@@ -1,0 +1,14 @@
+{
+  "hash": "4c7ca3b1bbcb6569d77cf8560452fdff",
+  "result": {
+    "markdown": "---\ntitle: \"Pizza\"\nauthor: \"Lolvin Delaurens\"\ndate: \"2024-07-03\"\ncategories: [news, code, analysis]\nimage: \"image.jpg\"\n---\n\n\n## Preparación de la masa\n\n::: columns ::: {.column width=\"20%\"}\n\n![](images/pizza.jpg)){width=\"600\"} \n:::\n\n::: {.column width=\"10%\"}\n:::\n\n::: {.column width=\"50%\"}\nPara encontrar una mejor manera de hacer su pizza favorita, Marcelo se propuso reducir el tiempo que tarda en preparar la masa. Para hacerlo siguió el camino de la ciencia y **diseñó un experimento** para poner a prueba el efecto de la cantidad de azúcar y de leche en los tiempos de activación de la levadura. En concreto, probó cuatro recetas diferentes y midió cuántos segundos tardaba la misma cantidad de masa en llenar un recipiente hasta una marca que fijo como referencia. **Aleatorizó** el orden de las recetas y repitió cada tratamiento 4 veces.\n:::\n:::\nThis is a post with executable code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
