@@ -26,5 +26,26 @@
     "title": "Avances proyecto",
     "section": "",
     "text": "Comite Tutorial\nDr. Mauricio Luna Rodriguez (director)\nDr. Marco Tulio Solano de la Cruz (Co- director)\nDra. Rosalinda Tapia López (Asesora externa)\nDr. José Daniel López Lima (Asesor)"
+  },
+  {
+    "objectID": "posts/Leer datos/leer datos.html",
+    "href": "posts/Leer datos/leer datos.html",
+    "title": "Un poco de datos",
+    "section": "",
+    "text": "Acceso a datos de excel de concentraciones de DNA de plantas de Vanilla planifolia Jacks en tres agrosistemas distintos de la región del Totonacapan. En esta gráfica podemos encontrar los datos de un sitio de muestreo llamado ACAHUAL.\n\n\n\nsuppressPackageStartupMessages(library(tidyverse))\n\nWarning: package 'ggplot2' was built under R version 4.3.3\n\n\nWarning: package 'tidyr' was built under R version 4.3.3\n\n\nWarning: package 'readr' was built under R version 4.3.3\n\nlibrary(ggplot2)\nlibrary(readxl)\n\nlibrary(readxl)\nLolvin_datos &lt;- read_excel (\"Lolvin datos concentraciónes DNA de rizosfera primeras muestras Quantus.xlsx\")\n\n\nggplot(Lolvin_datos, aes(x = `Sample ID`, y = Concentration)) +\n  geom_point(color = \"orange\")"
+  },
+  {
+    "objectID": "posts/Leer datos/leer datos.html#un-poco-de-datos",
+    "href": "posts/Leer datos/leer datos.html#un-poco-de-datos",
+    "title": "Un poco de datos",
+    "section": "",
+    "text": "Acceso a datos de excel de concentraciones de DNA de plantas de Vanilla planifolia Jacks en tres agrosistemas distintos de la región del Totonacapan. En esta gráfica podemos encontrar los datos de un sitio de muestreo llamado ACAHUAL.\n\n\n\nsuppressPackageStartupMessages(library(tidyverse))\n\nWarning: package 'ggplot2' was built under R version 4.3.3\n\n\nWarning: package 'tidyr' was built under R version 4.3.3\n\n\nWarning: package 'readr' was built under R version 4.3.3\n\nlibrary(ggplot2)\nlibrary(readxl)\n\nlibrary(readxl)\nLolvin_datos &lt;- read_excel (\"Lolvin datos concentraciónes DNA de rizosfera primeras muestras Quantus.xlsx\")\n\n\nggplot(Lolvin_datos, aes(x = `Sample ID`, y = Concentration)) +\n  geom_point(color = \"orange\")"
+  },
+  {
+    "objectID": "posts/Presentacion/Presentacion de Avances.html",
+    "href": "posts/Presentacion/Presentacion de Avances.html",
+    "title": "Avances proyecto",
+    "section": "",
+    "text": "Comite Tutorial\nDr. Mauricio Luna Rodriguez (director)\nDr. Marco Tulio Solano de la Cruz (Co- director)\nDra. Rosalinda Tapia López (Asesora externa)\nDr. José Daniel López Lima (Asesor)"
   }
 ]
