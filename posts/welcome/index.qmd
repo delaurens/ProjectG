@@ -1,8 +1,8 @@
 ---
-title: "Ciencia abierta y la Vainilla"
+title: "Ciencia abierta y Vainilla"
 author: "Lolvin Delaurens"
 date: "2024-06-30"
-categories: [noticias, pizza]
+categories: [noticias]
 ---
 
 ::: {style="font-size: 50%; color:green; font-family: helvetica; font-size:28px;"}

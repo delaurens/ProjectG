@@ -1,86 +1,30 @@
 [
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Ciencia abierta y la Vainilla",
-    "section": "",
-    "text": "Este es el primer post en Quarto Bienvenidos!"
-  },
-  {
-    "objectID": "posts/Leer datos/leer datos.html",
-    "href": "posts/Leer datos/leer datos.html",
-    "title": "Un poco de datos",
-    "section": "",
-    "text": "Acceso a datos de excel de concentraciones de DNA de plantas de Vanilla planifolia Jacks en tres agrosistemas distintos de la región del Totonacapan. En esta gráfica podemos encontrar los datos de un sitio de muestreo llamado ACAHUAL.\n\n\n\nsuppressPackageStartupMessages(library(tidyverse))\n\nWarning: package 'ggplot2' was built under R version 4.3.3\n\n\nWarning: package 'tidyr' was built under R version 4.3.3\n\n\nWarning: package 'readr' was built under R version 4.3.3\n\nlibrary(ggplot2)\nlibrary(readxl)\n\nlibrary(readxl)\nLolvin_datos &lt;- read_excel (\"Lolvin datos concentraciónes DNA de rizosfera primeras muestras Quantus.xlsx\")\n\n\nggplot(Lolvin_datos, aes(x = `Sample ID`, y = Concentration)) +\n  geom_point(color = \"orange\")"
-  },
-  {
-    "objectID": "posts/Leer datos/leer datos.html#lectura-de-datos",
-    "href": "posts/Leer datos/leer datos.html#lectura-de-datos",
-    "title": "Proyecto Ciencia Abierta UV",
-    "section": "",
-    "text": "Acceso a datos de excel de concentraciones de DNA de plantas de Vanilla planifolia Jacks en tres agrosistemas distintos de la región del Totonacapan.\n\n\nsuppressPackageStartupMessages(library(tidyverse))\n\nWarning: package 'ggplot2' was built under R version 4.3.3\n\n\nWarning: package 'tidyr' was built under R version 4.3.3\n\n\nWarning: package 'readr' was built under R version 4.3.3\n\nlibrary(ggplot2)\nlibrary(readxl)\n\nlibrary(readxl)\nLolvin_datos &lt;- read_excel (\"Lolvin datos concentraciónes DNA de rizosfera primeras muestras Quantus.xlsx\")\n\n\nggplot(Lolvin_datos, aes(x = `Sample ID`, y = Concentration)) +\n  geom_point(color = \"orange\")"
-  },
-  {
-    "objectID": "posts/Leer datos/leer datos.html#datos-en-word",
-    "href": "posts/Leer datos/leer datos.html#datos-en-word",
-    "title": "Proyecto Ciencia Abierta UV",
-    "section": "Datos en Word",
-    "text": "Datos en Word"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "En este blog, exploraremos un poco acerca del mundo de la vainilla en la región del totonacapan se comparten datos sobre concentraciones de DNA´s de distintos tipos de cultivo: Acahual, Cafetal y Malla sombra con tutor artificial.\nAdemás un articulo de divulgación sobre la historia de la vainilla en el Totonacapan y su principal problematica fitosanitaria actualmente.\nEmpecemos."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "ProjectG",
     "section": "",
-    "text": "Un poco de datos\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJul 3, 2024\n\n\nLolvin Delaurens\n\n\n\n\n\n\n  \n\n\n\n\nPrimer ejercicio Pizza\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJul 3, 2024\n\n\nLolvin Delaurens\n\n\n\n\n\n\n  \n\n\n\n\nCiencia abierta y la Vainilla\n\n\n\n\n\n\n\nnoticias\n\n\npizza\n\n\n\n\n\n\n\n\n\n\n\nJun 30, 2024\n\n\nLolvin Delaurens\n\n\n\n\n\n\nNo matching items"
+    "text": "Avances proyecto\n\n\n\n\n\n\n\npresentacion\n\n\ngraficas\n\n\ncronograma\n\n\n\n\n\n\n\n\n\n\n\nAug 8, 2024\n\n\nLolvin Delaurens\n\n\n\n\n\n\n  \n\n\n\n\nUn poco de datos\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJul 3, 2024\n\n\nLolvin Delaurens\n\n\n\n\n\n\n  \n\n\n\n\nEl aroma del mundo\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJul 3, 2024\n\n\nLolvin Delaurens\n\n\n\n\n\n\n  \n\n\n\n\nCiencia abierta y Vainilla\n\n\n\n\n\n\n\nnoticias\n\n\n\n\n\n\n\n\n\n\n\nJun 30, 2024\n\n\nLolvin Delaurens\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Pizza",
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Ciencia abierta y Vainilla",
     "section": "",
-    "text": "::: columns ::: {.column width=“20%”}\n){width=“600”} :::\n\n\n\n\nPara encontrar una mejor manera de hacer su pizza favorita, Marcelo se propuso reducir el tiempo que tarda en preparar la masa. Para hacerlo siguió el camino de la ciencia y diseñó un experimento para poner a prueba el efecto de la cantidad de azúcar y de leche en los tiempos de activación de la levadura. En concreto, probó cuatro recetas diferentes y midió cuántos segundos tardaba la misma cantidad de masa en llenar un recipiente hasta una marca que fijo como referencia. Aleatorizó el orden de las recetas y repitió cada tratamiento 4 veces.\n\n::: This is a post with executable code.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html#preparación-de-la-masa",
-    "href": "posts/post-with-code/index.html#preparación-de-la-masa",
-    "title": "Pizza",
-    "section": "",
-    "text": "::: columns ::: {.column width=“20%”}\n){width=“600”} :::\n\n\n\n\nPara encontrar una mejor manera de hacer su pizza favorita, Marcelo se propuso reducir el tiempo que tarda en preparar la masa. Para hacerlo siguió el camino de la ciencia y diseñó un experimento para poner a prueba el efecto de la cantidad de azúcar y de leche en los tiempos de activación de la levadura. En concreto, probó cuatro recetas diferentes y midió cuántos segundos tardaba la misma cantidad de masa en llenar un recipiente hasta una marca que fijo como referencia. Aleatorizó el orden de las recetas y repitió cada tratamiento 4 veces.\n\n::: This is a post with executable code.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "posts/Leer datos/leer datos.html#acceso-a-datos-abiertos",
-    "href": "posts/Leer datos/leer datos.html#acceso-a-datos-abiertos",
-    "title": "Proyecto Ciencia Abierta UV",
-    "section": "Acceso a datos abiertos",
-    "text": "Acceso a datos abiertos"
-  },
-  {
-    "objectID": "about.html#acerca-de-este-blog",
-    "href": "about.html#acerca-de-este-blog",
-    "title": "About",
-    "section": "",
-    "text": "En este blog, exploraremos un poco acerca del mundo de la vainilla en la región del totonacapan se comparten datos sobre concentraciones de DNA´s de distintos tipos de cultivo: Acahual, Cafetal y Malla sombra con tutor artificial.\nAdemás un articulo de divulgación sobre la historia de la vainilla en el Totonacapan y su principal problematica fitosanitaria actualmente.\nEmpecemos."
+    "text": "Este es el primer post en Quarto Bienvenidos!"
   },
   {
     "objectID": "posts/welcome/index.html#la-diversidad-microbiana-endófita-en-raíces-de-vanilla-planifolia-jacks.-ex-andrews",
     "href": "posts/welcome/index.html#la-diversidad-microbiana-endófita-en-raíces-de-vanilla-planifolia-jacks.-ex-andrews",
-    "title": "Ciencia abierta y la Vainilla",
+    "title": "Ciencia abierta y Vainilla",
     "section": "La diversidad microbiana endófita en raíces de Vanilla planifolia Jacks. ex Andrews",
     "text": "La diversidad microbiana endófita en raíces de Vanilla planifolia Jacks. ex Andrews\n\nVanilla planifolia Jacks. ex Andrews es una planta altamente valorada por ser fuente de orgánica de vainillina, extraída de sus frutos, y utilizada como aroma y saborizante de comida (Fernández-Villa & Iglesias-Andreu, 2024; Iftikhar et al., 2023). Desafortunadamente, a nivel mundial, esta especie es afectada gravemente por la enfermedad de pudrición de tallo y raíz asociada a Fusarium oxysporum f. sp. vanillae (Carbajal-Valenzuela et al., 2022) (Fov) considerado el patógeno más devastador en estos sistemas de cultivo que provoca en pérdidas significativas en su producción comercial (Manrique-Barros et al., 2023; Ortega-Macareno et al., 2023). Paradójicamente, se ha observado que la sola presencia de Fov en vainilla no es suficiente para que la planta exprese síntomas (Carbajal-Valenzuela et al., 2022). Muchas especies de Fusarium no-patógeno habitan los tejidos de plantas como hongos endófitos o como saprobios del suelo haciendo que la naturaleza de su comportamiento dentro de la comunidad microbiana endófita de raíces de vainilla sea un enigma (Al-Ani, 2019). Así, aunque se sospecha que la planta o el resto de familias de microbios endófitos podrían influir en la virulencia de Fov, aún no existe evidencia concluyente al respecto (Carbajal-Valenzuela et al., 2022). Estudios previos sugieren que existen bacterias con efectos de biocontrol in vitro desarrolladas junto con Fov que podrían ser endófitos (Manrique-Barros et al., 2023). En consecuencia, identificar bacterias endófitas con roles funcionales tales como la inducción de Respuesta Sistémica Inducida (RSI) (Fernández-Villa & Iglesias-Andreu, 2024), producción de fitoanticipinas, cumarina u otros metabolitos secundarios a través de la activación de rutas metabólicas de la vainilla (Al-Ani, 2019) podría explicar y promover el fenómeno de la asintomatología aún en presencia de Fov. Este tipo de estudios resulta clave, dado que el desarrollo de genotipos resistentes al patógeno apenas cuenta con algunos esfuerzos (Ramírez-Mosqueda et al., 2019). Así, el presente estudio buscó responder qué familias bacterianas endófitas se identifican dentro de raíces de vainilla en presencia y ausencia de Fov y, por otra parte, si Fov induce un cambio en la diversidad microbiana. Se presupuso que Fov modificaría la composición de las comunidades microbianas endófitas en las raíces de vainilla contribuyendo a la reducción de su diversidad, un efecto que sería más notorio en etapas posteriores de desarrollo. El objetivo de esta investigación es identificar familias bacterianas endófitas y comparar la diversidad de estas en raíces en presencia y ausencia de Fov a dos diferentes tiempos de desarrollo. Con ello se espera contribuir a la comprensión de la naturaleza de Fov en la microbiota endófita y, posiblemente, al desarrollo de biopesticidas a través de la identificación y discusión de endófitos de raíz con potencial simbiótico que detonen la RSI o produzcan metabolitos secundarios de defensa.\n\n\nArticulo sobre la historia de la vainilla\n\n\nUna historia contada desde el Totonacapan. Aqui la liga del articulo"
   },
   {
-    "objectID": "posts/Leer datos/leer datos.html#un-poco-de-datos",
-    "href": "posts/Leer datos/leer datos.html#un-poco-de-datos",
-    "title": "Un poco de datos",
+    "objectID": "posts/Presentación/Presentación de Avances.html",
+    "href": "posts/Presentación/Presentación de Avances.html",
+    "title": "Avances proyecto",
     "section": "",
-    "text": "Acceso a datos de excel de concentraciones de DNA de plantas de Vanilla planifolia Jacks en tres agrosistemas distintos de la región del Totonacapan. En esta gráfica podemos encontrar los datos de un sitio de muestreo llamado ACAHUAL.\n\n\n\nsuppressPackageStartupMessages(library(tidyverse))\n\nWarning: package 'ggplot2' was built under R version 4.3.3\n\n\nWarning: package 'tidyr' was built under R version 4.3.3\n\n\nWarning: package 'readr' was built under R version 4.3.3\n\nlibrary(ggplot2)\nlibrary(readxl)\n\nlibrary(readxl)\nLolvin_datos &lt;- read_excel (\"Lolvin datos concentraciónes DNA de rizosfera primeras muestras Quantus.xlsx\")\n\n\nggplot(Lolvin_datos, aes(x = `Sample ID`, y = Concentration)) +\n  geom_point(color = \"orange\")"
+    "text": "Comite Tutorial\nDr. Mauricio Luna Rodriguez (director)\nDr. Marco Tulio Solano de la Cruz (Co- director)\nDra. Rosalinda Tapia López (Asesora externa)\nDr. José Daniel López Lima (Asesor)"
   }
 ]
