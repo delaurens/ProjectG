@@ -1,1 +1,1 @@
-Aqui va la descripcion para Github del proyecto
+Este es mi primer proyecto  que comparto con Github y la comunidad científica y público interesado en temas de biología y ciencia abierta, es un ejercicio que compartimos al mismo tiempo que construíamos un blog con Quarto y Rstudio, familiarizarnos con esto es de mucha ayuda para futuros proyectos.
