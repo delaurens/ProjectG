@@ -24,6 +24,7 @@ title-slide-attributes:
   data-background-size: "60%"
   data-background-opacity: "20%"
 ---
+
 # Comite Tutorial
 
 Dr. Mauricio Luna Rodriguez (director)
@@ -32,7 +33,9 @@ Dr. Marco Tulio Solano de la Cruz (Co- director)
 
 Dra. Rosalinda Tapia López (Asesora externa)
 
-Dr. José Daniel López Lima (Asesor)
----
+Dr. Daniel López Lima
 
-![](floruv.png)
+![](floruv.png){width="right"}
+
+# Introduccion
+
