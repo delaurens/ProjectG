@@ -68,3 +68,7 @@ Dr. Daniel López Lima
 ## Bibliografia
 
 [Identificación y caracterización de aislamientos de Fusarium spp. presentes en garbanzo (Cicer arietinum L.) en Cuba](http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S1010-27522016000300004)
+
+[Ficha Técnica Fusarium spp.](https://www.gob.mx/cms/uploads/attachment/file/633031/Fusarium_spp__ma_z__2020.pdf)
+
+[Diversity of sequencing sample with Shannon entropy in R](https://ksenia-bioinfo.medium.com/diversity-of-the-sequencing-sample-with-shannon-entropy-in-r-3b9e8bf208d4)
