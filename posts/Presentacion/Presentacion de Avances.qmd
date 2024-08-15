@@ -24,7 +24,6 @@ title-slide-attributes:
   data-background-size: "60%"
   data-background-opacity: "20%"
 ---
-Presentación de avances para comité tutorial
 
 # Comite Tutorial
 
@@ -42,9 +41,9 @@ Dr. Daniel López Lima
 
 ![](Presentación1/Diapositiva1.JPG){fig-align="center"}
 
-# Introduccion 
+# Introduccion
 
-![](Presentación1/Diapositiva2.JPG){fig-align="center"} 
+![](Presentación1/Diapositiva2.JPG){fig-align="center"}
 
 # Antecedentes
 
@@ -60,9 +59,12 @@ Dr. Daniel López Lima
 
 # Resultados
 
-![](Presentación1/Diapositiva6.JPG){fig-align=}
+![](Presentación1/Diapositiva6.JPG){fig-align=""}
 
 # Conclusiones
 
-![](Presentación1/Diapositiva7.JPG){fig-align=}
+![](Presentación1/Diapositiva7.JPG){fig-align=""}
 
+## Bibliografia
+
+[Identificación y caracterización de aislamientos de Fusarium spp. presentes en garbanzo (Cicer arietinum L.) en Cuba](http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S1010-27522016000300004)
