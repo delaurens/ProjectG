@@ -39,3 +39,29 @@ Dr. Daniel López Lima
 
 # Introduccion
 
+![](Presentación1/Diapositiva1.JPG){fig-align="center"}
+
+# Introduccion 
+
+![](Presentación1/Diapositiva2.JPG){fig-align="center"} 
+
+# Antecedentes
+
+![](Presentación1/Diapositiva3.JPG){fig-align="center"}
+
+# Antecedentes
+
+![](Presentación1/Diapositiva4.JPG){fig-align="center"}
+
+# Resultados
+
+![](Presentación1/Diapositiva5.JPG){fig-align="center"}
+
+# Resultados
+
+![](Presentación1/Diapositiva6.JPG){fig-align=}
+
+# Conclusiones
+
+![](Presentación1/Diapositiva7.JPG){fig-align=}
+
