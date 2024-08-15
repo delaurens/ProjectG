@@ -10,7 +10,7 @@ Este es el primer post en Quarto Bienvenidos!
 :::
 
 ::: {style="text-align: justify"}
-Ciencia abierta (open cience) es un movimiento mundial surgido de la comunidad científica que aboga por una mayor accesibilidad, colaboración, eficiencia, y transparecina de la investgación para que sea más democrática y con mayor vinculación a las necesidades de la sociedad. Es por ello que en esta clase impartida por el Dr. Miguel Equihua hemos aprendido a generar contenido cientifico desde otras plataformas e interfaces como Rstudio y Quarto. Es por ello que como estudiante de la Maestría de Ciencias Agropecuarias de la Universidad Veracruzana comparto parte de la investigación que desarrolló acerca de la diversidad microbiana bacteriana de la vainilla y su relación con la Fusariosis en la región del Totonacapan.
+Ciencia abierta (open science) es un movimiento mundial surgido de la comunidad científica que aboga por una mayor accesibilidad, colaboración, eficiencia, y transparecina de la investgación para que sea más democrática y con mayor vinculación a las necesidades de la sociedad. Es por ello que en esta clase impartida por el Dr. Miguel Equihua hemos aprendido a generar contenido cientifico desde otras plataformas e interfaces como Rstudio y Quarto. Es por ello que como estudiante de la Maestría de Ciencias Agropecuarias de la Universidad Veracruzana comparto parte de la investigación que se desarrolló acerca de la diversidad microbiana bacteriana de rizosfera y raíz de la vainilla y su relación con la Fusariosis en la región del Totonacapan.
 :::
 
 ![](IMG-20170225-WA0015.jpg){width="11.6cm"}\
